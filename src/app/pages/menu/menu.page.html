@@ -18,8 +18,7 @@
       </ion-menu-toggle>
 
       <!--Item with Children-->
-      <ion-item button *ngIf="p.children?.length > 0" (click)="p.open = !p.open" [class.parent-active]="p.open"
-        detail="false">
+      <ion-item button *ngIf="p.children?.length > 0" (click)="p.open = !p.open" [class.parent-active]="p.open" detail="false">
         <ion-icon slot="start" name="arrow-forward" *ngIf="!p.open"></ion-icon>
         <ion-icon slot="start" name="arrow-down" *ngIf="p.open"></ion-icon>
         <ion-label>{{p.title}}</ion-label>
@@ -57,10 +56,16 @@
         <ion-label>Tab Two</ion-label>
       </ion-tab-button>
 
-      <ion-tab-button tab="tab3">
-        <ion-icon name="send"></ion-icon>
+      <ion-tab-button tab="maps">
+        <ion-icon name="locate"></ion-icon>
         <ion-label>Tab Three</ion-label>
       </ion-tab-button>
+
+      <ion-tab-button tab="tab2">
+        <ion-icon name="apps"></ion-icon>
+        <ion-label>Tab Two</ion-label>
+      </ion-tab-button>
+
       <ion-tab-button tab="list-user">
         <ion-icon name="contacts"></ion-icon>
         <ion-label>Tab Three</ion-label>

@@ -7,8 +7,8 @@ const routes: Routes = [
   { path: 'main', loadChildren: './pages/main/main.module#MainPageModule' },
   { path: 'ionic', loadChildren: './pages/ionic/ionic.module#IonicPageModule' },
   { path: 'flutter', loadChildren: './pages/flutter/flutter.module#FlutterPageModule' },
-  { path: 'tab1', loadChildren: '.pages/tab1/tab1.module#Tab1PageModule' },
-  { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' }
+  { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' },  { path: 'maps', loadChildren: './pages/maps/maps.module#MapsPageModule' }
+
 
 ];
 @NgModule({

@@ -32,6 +32,10 @@ const routes: Routes = [
       {
         path:'home',
         loadChildren:'../home/home.module#HomePageModule'
+      },
+      {
+        path:'maps',
+        loadChildren:'../maps/maps.module#MapsPageModule'
       }
     ]
   }

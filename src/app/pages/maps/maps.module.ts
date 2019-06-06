@@ -1,25 +1,26 @@
-import { IonicModule } from '@ionic/angular';
-import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab1Page } from './tab1.page';
+import { Routes, RouterModule } from '@angular/router';
+
+import { IonicModule } from '@ionic/angular';
+
+import { MapsPage } from './maps.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: Tab1Page
+    component: MapsPage
   }
 ];
 
-
 @NgModule({
   imports: [
-    IonicModule,
     CommonModule,
     FormsModule,
+    IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [Tab1Page]
+  declarations: [MapsPage]
 })
-export class Tab1PageModule {}
+export class MapsPageModule {}
