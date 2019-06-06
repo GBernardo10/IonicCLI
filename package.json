@@ -30,6 +30,7 @@
     "cordova-plugin-ionic-webview": "^4.0.1",
     "cordova-plugin-splashscreen": "^5.0.2",
     "core-js": "^2.5.4",
+    "materialize-css": "^1.0.0-rc.2",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.29"
