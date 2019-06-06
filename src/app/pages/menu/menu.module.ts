@@ -28,6 +28,10 @@ const routes: Routes = [
       {
         path:'flutter',
         loadChildren:'../flutter/flutter.module#FlutterPageModule'
+      },
+      {
+        path:'home',
+        loadChildren:'../home/home.module#HomePageModule'
       }
     ]
   }
