@@ -1,12 +1,16 @@
 <ion-header>
-    <ion-toolbar color="primary">
-      <ion-buttons slot="start">
-        <ion-menu-button></ion-menu-button>
-      </ion-buttons>
-      <ion-title>Maps</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
-  <ion-content padding>
-  <p>teste</p>
-  </ion-content>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Maps</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div #map id="mapa"></div>
+  <div #mapElement class="mapa"></div>
+  <canvas id="map_canvas">
+    {{map}}
+  </canvas>
+</ion-content>
